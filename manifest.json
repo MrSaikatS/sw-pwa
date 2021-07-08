@@ -1,0 +1,38 @@
+{
+	"short_name": "SWPWA",
+	"name": "SWPWA: A Demo PWA App",
+	"icons": [
+		{
+			"src": "/assets/pwa.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/assets/pwa512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "/",
+	"background_color": "#3367D6",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#3367D6",
+	"shortcuts": [
+		{
+			"name": "How's weather today?",
+			"short_name": "Today",
+			"description": "View weather information for today",
+			"url": "/about",
+			"icons": [{ "src": "/assets/pwa.png", "sizes": "192x192" }]
+		},
+		{
+			"name": "How's weather tomorrow?",
+			"short_name": "Tomorrow",
+			"description": "View weather information for tomorrow",
+			"url": "/contact",
+			"icons": [{ "src": "/assets/pwa.png", "sizes": "192x192" }]
+		}
+	],
+	"description": "Weather forecast information"
+}
