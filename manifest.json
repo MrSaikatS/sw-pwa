@@ -18,21 +18,5 @@
 	"display": "standalone",
 	"scope": "/",
 	"theme_color": "#3367D6",
-	"shortcuts": [
-		{
-			"name": "How's weather today?",
-			"short_name": "Today",
-			"description": "View weather information for today",
-			"url": "/about",
-			"icons": [{ "src": "/assets/pwa.png", "sizes": "192x192" }]
-		},
-		{
-			"name": "How's weather tomorrow?",
-			"short_name": "Tomorrow",
-			"description": "View weather information for tomorrow",
-			"url": "/contact",
-			"icons": [{ "src": "/assets/pwa.png", "sizes": "192x192" }]
-		}
-	],
-	"description": "Weather forecast information"
+	"description": "This is a Demo PWA App for testing."
 }
