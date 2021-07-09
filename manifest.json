@@ -16,7 +16,7 @@
 	],
 	"start_url": "/",
 	"background_color": "#e6e6e6",
-	"display": "standalone",
+	"display": "fullscreen",
 	"theme_color": "#bfbfbf",
 	"description": "This is a Demo PWA App for testing."
 }
